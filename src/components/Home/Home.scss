@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+
+  .profileImage {
+    height: 150px;
+    width: 150px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .profileText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .me {
+      text-align: center;
+
+      h2 {
+        font-size: 3rem;
+        color: #fff;
+
+        @media screen and (max-width: 800px) {
+          font-size: 2rem;
+        }
+
+        .textName {
+          color: var(--main-color);
+        }
+      }
+      .aspiring {
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+        opacity: 0.6;
+      }
+    }
+    .profileAboutMe {
+      display: inline-block;
+      font-size: 3.5rem;
+      color: #fff;
+      margin-top: 70px;
+
+      @media screen and (max-width: 800px) {
+        font-size: 3rem;
+        text-align: center;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: var(--main-color);
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      margin-top: 70px;
+    }
+  }
+}

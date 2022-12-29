@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 800px) {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+
+  .skillsButtons {
+    button {
+      color: white;
+      background-color: var(--main-color);
+      border: none;
+      border-radius: 8px;
+      font-size: 1.5rem;
+      padding: 0.75rem 1.25rem;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    div {
+      color: #fff;
+      font-size: 10rem;
+      margin-top: 50px;
+      flex-basis: 30%;
+      @media screen and (max-width: 1000px) {
+        flex-basis: 45%;
+      }
+
+      @media screen and (max-width: 800px) {
+        flex-basis: 55%;
+      }
+    }
+    .skillText {
+      display: inline-block;
+      margin-top: 50px;
+      max-width: 70%;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #fff;
+
+      @media screen and (max-width: 800px) {
+        max-width: 90%;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 80px;
+
+    .skillsExp {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      span {
+        font-size: 2rem;
+        padding-right: 40px;
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+        @media screen and (max-width: 1000px) {
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+}
+
+.displayNone {
+  display: none;
+}
