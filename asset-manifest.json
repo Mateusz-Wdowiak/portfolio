@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mateusz-Wdowiak/portfolio.git/static/css/main.d9583bff.css",
+    "main.js": "/Mateusz-Wdowiak/portfolio.git/static/js/main.eb92fd19.js",
+    "static/media/portfolio.JPG": "/Mateusz-Wdowiak/portfolio.git/static/media/portfolio.e958b7b19eda8fc46cf8.JPG",
+    "static/media/project2.JPG": "/Mateusz-Wdowiak/portfolio.git/static/media/project2.deab0752b044771488b5.JPG",
+    "static/media/project1.JPG": "/Mateusz-Wdowiak/portfolio.git/static/media/project1.75a3318def9e75b454fc.JPG",
+    "index.html": "/Mateusz-Wdowiak/portfolio.git/index.html",
+    "main.d9583bff.css.map": "/Mateusz-Wdowiak/portfolio.git/static/css/main.d9583bff.css.map",
+    "main.eb92fd19.js.map": "/Mateusz-Wdowiak/portfolio.git/static/js/main.eb92fd19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9583bff.css",
+    "static/js/main.eb92fd19.js"
+  ]
+}
