@@ -45,9 +45,6 @@ const About = () => {
             <div>
               <FaEnvelope /> <span>wdowiak.mateusz21@gmail.com</span>
             </div>
-            <a href={CV} download rel="noopener noreferrer" target="_blank">
-              Download CV
-            </a>
           </div>
         </motion.div>
       </div>
