@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
-import Portfolio from "../../asstets/portfolio.JPG";
+import Portfolio from "../../assets/portfolio.JPG";
+import CV from "../../assets/Mateusz_Wdowiak_CV.pdf";
 import { AiFillHome } from "react-icons/ai";
 import { FaEnvelope } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
@@ -44,7 +45,9 @@ const About = () => {
             <div>
               <FaEnvelope /> <span>wdowiak.mateusz21@gmail.com</span>
             </div>
-            <a href="/">Download CV</a>
+            <a href={CV} download rel="noopener noreferrer" target="_blank">
+              Download CV
+            </a>
           </div>
         </motion.div>
       </div>

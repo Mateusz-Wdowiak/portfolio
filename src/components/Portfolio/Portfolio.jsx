@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.scss";
-import project1 from "../../asstets/project1.JPG";
-import project2 from "../../asstets/project2.JPG";
+import project1 from "../../assets/project1.JPG";
+import project2 from "../../assets/project2.JPG";
 import { motion } from "framer-motion";
 
 const Portfolio = () => {

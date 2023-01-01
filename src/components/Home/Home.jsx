@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { motion } from "framer-motion";
-import Portfolio from "../../asstets/portfolio.JPG";
+import Portfolio from "../../assets/portfolio.JPG";
 
 const Home = () => {
   return (
