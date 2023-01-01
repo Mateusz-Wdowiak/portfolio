@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d9583bff.css",
-    "main.js": "/portfolio/static/js/main.78e4138c.js",
+    "main.js": "/portfolio/static/js/main.c54ca0aa.js",
     "static/media/portfolio.JPG": "/portfolio/static/media/portfolio.e958b7b19eda8fc46cf8.JPG",
+    "static/media/Mateusz_Wdowiak_CV.pdf": "/portfolio/static/media/Mateusz_Wdowiak_CV.d37376cf55983100dd1f.pdf",
     "static/media/project2.JPG": "/portfolio/static/media/project2.deab0752b044771488b5.JPG",
     "static/media/project1.JPG": "/portfolio/static/media/project1.75a3318def9e75b454fc.JPG",
     "index.html": "/portfolio/index.html",
     "main.d9583bff.css.map": "/portfolio/static/css/main.d9583bff.css.map",
-    "main.78e4138c.js.map": "/portfolio/static/js/main.78e4138c.js.map"
+    "main.c54ca0aa.js.map": "/portfolio/static/js/main.c54ca0aa.js.map"
   },
   "entrypoints": [
     "static/css/main.d9583bff.css",
-    "static/js/main.78e4138c.js"
+    "static/js/main.c54ca0aa.js"
   ]
 }
