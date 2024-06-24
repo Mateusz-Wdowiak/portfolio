@@ -8,7 +8,7 @@
   <li>JavaScript</li>
   <li>React</li>
   <li>React icons</li>
-  <li>Framet-motion</li>
+  <li>Framer-motion</li>
  </ul>
  
 <h3>Run</h3>
